@@ -1,0 +1,22 @@
+.card-container{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+   
+    width: 80%;
+}
+img{
+    width: 50vh;
+    height: 30vh;
+}
+h1{
+    text-align: center;
+}
+.live-card__image{
+    cursor: pointer;
+}
+
+.live-card{
+    border-bottom: 3px solid rgb(5, 5, 53);
+}
+

@@ -1,0 +1,59 @@
+
+*{
+    margin-left: 0;
+}
+.list{
+    list-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 2rem;
+    /* border: 1px solid grey;
+    border-radius: 10px; */
+    text-indent: 1rem;
+    
+    
+}
+
+
+.counter{
+    color: red;
+    list-style: none;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+}
+.banner{
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+.live{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 0;
+    text-indent: -1rem
+    
+}
+
+.spinner {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    border-bottom-color: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    animation: spin 1s infinite linear;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

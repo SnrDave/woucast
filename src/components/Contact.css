@@ -1,0 +1,11 @@
+.cont{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    margin: auto;
+    margin-top: 8rem;
+   
+}
+li{
+    list-style: none;
+}
